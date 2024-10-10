@@ -1,6 +1,3 @@
-from enum import Enum
-
-
 class Agent:
     def __init__(self, energy):
         self.state = "ALIVE"
