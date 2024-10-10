@@ -1,12 +1,6 @@
 from enum import Enum
 
-# Enum for agent states
-# class State(Enum):
-#     ALIVE = "ALIVE"
-#     INFECTED = "INFECTED"
-#     DEAD = "DEAD"
 
-# Base class for all agents
 class Agent:
     def __init__(self, energy):
         self.state = "ALIVE"
